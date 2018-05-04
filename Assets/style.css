@@ -1,0 +1,54 @@
+#Container {
+
+}
+
+#Header {
+    height: 20px;
+    background-color: aqua;
+    color: black;
+    font: Times;
+    font-size: 50px;
+}
+
+#namer {
+    float: left;
+}
+
+#menulinks {
+    font-family: Times;
+    font-size: 12px;
+    color: grey;
+
+}
+
+#menulinks ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menulinks li {
+    list-style-type: none;
+    float: right;
+    display: block;
+    font-family: Times;
+}
+
+#profilepic {
+    width: 10px;
+    height: 10px;
+    float: left;
+
+}
+
+#aboutme {
+    float: right;
+
+}
+
+#container {
+    float: down;
+}
+
+#aboutme {
+    float: down;
+}

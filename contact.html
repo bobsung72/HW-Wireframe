@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang: "en-us">
+
+<head>
+    <title>Robert Sung Contact Page</title>
+    <!-- Linking html files to style.css-->
+    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Creating the main menu bar -->
+    <div id="menuname">
+        <h1 id="namer">Robert Sung</h1>
+        <ul id="menulinks">
+            <li class="active">
+                <a href="index.html"> About </a>
+            </li>
+            <li class="active">
+                <a href="portfolio.html"> Portfolio </a>
+            </li>
+            <li class="active">
+                <a href="contact.html"> Contact </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Creating the Background and Mainbody -->
+    <div>
+        <div id="Background">
+            <div id="Mainbody"></div>
+            <h2>Contact</h2>
+
+            <!-- Creating Contact Form via unordered list -->
+            <div class="container">
+                <ul>
+                    <form action="action_page.php">
+                        <!-- Creating Name Input -->
+                        <li>
+                            <label for="name">Name</label>
+                        </li>
+                        <input type="text" id="fname" name="name" placeholder="Your name...">
+                        <!-- Creating Email Input -->
+                        <li>
+                            <label for="email">Email</label>
+                        </li>
+                        <input type="text" id="email" name="email" placeholder="email">
+                        <!-- Creating Message Input -->
+                        <li>
+                            <lable for="message">Message</lable>
+                        </li>
+                        <textarea id="message" name="message" placeholder="Writesomething.." style="height:200px">
+    </textarea>
+                        <!-- Creating Submit Botton-->
+                        <li>
+                            <input type="submit" value="submit">
+                        </li>
+                    </form>
+                </ul>
+            </div>
+
+</body>
+
+
+</html>
